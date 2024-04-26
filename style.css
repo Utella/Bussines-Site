@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #555;
+  background-color: #f7f7f7;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  background-color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.weather {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+  width: 30rem;
+  border-radius: 0.7rem;
+}
+
+.weather__data {
+  padding: 2.5rem 3.75rem 3rem 3.75rem;
+}
+
+.weather__name {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.weather__region {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.weather__feels,
+.weather__pressure,
+.weather__humidity,
+.weather__clouds {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff704d;
+}
+
+.w__ico {
+  transform: scale(1.3);
+  padding: 1rem 0 0 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .weather {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .weather__data {
+    padding: 2rem;
+  }
+
+  .weather__name {
+    font-size: 2rem;
+  }
+
+  .weather__region {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  input,
+  button {
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+  }
+
+  .weather {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .weather__data {
+    padding: 1.5rem;
+  }
+
+  .weather__name {
+    font-size: 1.8rem;
+  }
+
+  .weather__region {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"],
+  button {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
