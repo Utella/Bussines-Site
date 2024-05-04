@@ -36,7 +36,7 @@ body{
     margin-top: 60px;
 }
 .btn-page:active {
-    filter: brightness(0.9); /* Reduce brightness to darken */
+    filter: brightness(0.9); 
 }
 .btn-request{
     font-size: 14px;
