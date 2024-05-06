@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(to right, #2d35d1, #dd55ff);
+    background: linear-gradient(to right, #2d38d1e3, #dd55ff);
     align-items: center;
 }
 .card {
@@ -17,7 +17,16 @@ body{
     border-color: rgb(50, 205, 140);
     max-width: 200px;
 }
-
+.press{
+    border-color: cornflowerblue;
+}
+.sales{
+    border-color: rgb(45, 118, 253);
+}
+.flex{
+    display: flex; 
+    gap: 25px;
+}
 .btn{
     border-radius: 16px;
     border: none;
@@ -46,4 +55,38 @@ body{
 }
 .btn-request:hover{
     color: #000000;
+}
+.btn-sales{
+    margin-top: 30px;
+    background-color: #fff;
+    color: rgb(45, 118, 253);
+    font-size: 16px;
+    margin-top: 78px;
+    border: 2px solid rgb(45, 118, 253);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 20px;
+    text-align: center;
+    cursor: pointer; 
+}
+.btn-sales:active {
+    filter: brightness(0.9); 
+}
+.btn-press{
+    margin-top: 30px;
+    background-color: #fff;
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-top: 38px;
+    border: 2px solid cornflowerblue;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 20px;
+    text-align: center;
+    cursor: pointer; 
+}
+.btn-press:active {
+    filter: brightness(0.9); 
 }
