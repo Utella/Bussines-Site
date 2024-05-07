@@ -1,16 +1,19 @@
 body{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background: linear-gradient(to right, #2d38d1e3, #dd55ff);
     align-items: center;
+}
+
+.center{
+    text-align: center;
 }
 .card {
     margin-top: 80px;
     border-radius: 6px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     box-shadow: 5px 5px 5px #666060;
     background-color: #fff;
     border-top: 8px solid;
@@ -61,12 +64,12 @@ body{
     background-color: #fff;
     color: rgb(45, 118, 253);
     font-size: 16px;
-    margin-top: 78px;
+    margin-top: 80px;
     border: 2px solid rgb(45, 118, 253);
     border-radius: 16px;
     display: flex;
     justify-content: center;
-    padding: 6px 20px;
+    padding: 5px 20px;
     text-align: center;
     cursor: pointer; 
 }
@@ -78,12 +81,12 @@ body{
     background-color: #fff;
     color: cornflowerblue;
     font-size: 16px;
-    margin-top: 38px;
+    margin-top: 39px;
     border: 2px solid cornflowerblue;
     border-radius: 16px;
     display: flex;
     justify-content: center;
-    padding: 6px 20px;
+    padding: 5px 20px;
     text-align: center;
     cursor: pointer; 
 }
