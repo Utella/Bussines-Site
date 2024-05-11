@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0px;
+    background-color: #fff;
 }
 .green{
     color: green;
@@ -17,6 +18,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px;
+    box-shadow: 5px 5px 5px #666060;
 }
 img{
     width: 300px;

@@ -74,15 +74,7 @@ button:hover {
   padding: 1rem 0 0 2rem;
 }
 
-footer {
-  text-align: center;
-  background-color: #262626;
-  color: #fff;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 
 /* Responsive Design */
 
