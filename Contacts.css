@@ -6,7 +6,9 @@ body{
     background: linear-gradient(to right, #2d38d1e3, #dd55ff);
     align-items: center;
 }
-
+.separation{
+    margin-top: 7vh;
+}
 .center{
     text-align: center;
 }
