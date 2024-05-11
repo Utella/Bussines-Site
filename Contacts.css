@@ -8,12 +8,12 @@ body{
 }
 .separation{
     margin-top: 7vh;
+    z-index: -999;
 }
 .center{
     text-align: center;
 }
 .card {
-    margin-top: 80px;
     border-radius: 6px;
     padding: 20px 30px;
     box-shadow: 5px 5px 5px #666060;
@@ -29,6 +29,7 @@ body{
     border-color: rgb(45, 118, 253);
 }
 .flex{
+    margin-top: 80px;
     display: flex; 
     gap: 25px;
 }
@@ -95,3 +96,25 @@ body{
 .btn-press:active {
     filter: brightness(0.9); 
 }
+@media (max-width: 768px) {
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   .nav-links {
+        margin-top: 0px;
+      }
+
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    .separation{
+      margin-top: 16vh;
+    }
+
+  }
+  
